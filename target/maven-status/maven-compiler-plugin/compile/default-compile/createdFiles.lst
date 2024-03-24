@@ -1,0 +1,8 @@
+bigProject\pageObjects\checkoutPage.class
+bigProject\pageObjects\OrderPage.class
+bigProject\ReusableComponents\AbstractComponent.class
+bigProject\pageObjects\CartPage.class
+bigProject\pageObjects\ProductCatalouge.class
+bigProject\pageObjects\confirmationPage.class
+bigProject\pageObjects\LandingPage.class
+bigProject\resources\ExtentReporterNG.class

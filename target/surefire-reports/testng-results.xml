@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-25T09:51:23 AEDT" name="Surefire suite" finished-at="2024-03-25T09:52:05 AEDT" duration-ms="41701">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.SubmitOrder(java.util.HashMap)[pri:0, instance:bigProject.tests.SubmitOrderTest@6bf08014]" name="SubmitOrder" class="bigProject.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-03-25T09:51:23 AEDT" name="Surefire test" finished-at="2024-03-25T09:52:05 AEDT" duration-ms="41701">
+      <class name="bigProject.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:bigProject.tests.SubmitOrderTest@6bf08014]" started-at="2024-03-25T09:51:23 AEDT" name="LaunchApplication" finished-at="2024-03-25T09:51:30 AEDT" duration-ms="6509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:bigProject.tests.SubmitOrderTest@6bf08014]" started-at="2024-03-25T09:51:30 AEDT" name="SubmitOrder" data-provider="getData" finished-at="2024-03-25T09:51:36 AEDT" duration-ms="5819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, email=anshika@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:bigProject.tests.SubmitOrderTest@6bf08014]" started-at="2024-03-25T09:51:36 AEDT" name="tearDown" finished-at="2024-03-25T09:51:36 AEDT" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:bigProject.tests.SubmitOrderTest@6bf08014]" started-at="2024-03-25T09:51:36 AEDT" name="LaunchApplication" finished-at="2024-03-25T09:51:42 AEDT" duration-ms="6414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:bigProject.tests.SubmitOrderTest@6bf08014]" started-at="2024-03-25T09:51:42 AEDT" name="SubmitOrder" data-provider="getData" finished-at="2024-03-25T09:51:48 AEDT" duration-ms="5780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, email=shetty@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:bigProject.tests.SubmitOrderTest@6bf08014]" started-at="2024-03-25T09:51:48 AEDT" name="tearDown" finished-at="2024-03-25T09:51:48 AEDT" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:bigProject.tests.SubmitOrderTest@6bf08014]" started-at="2024-03-25T09:51:48 AEDT" name="LaunchApplication" finished-at="2024-03-25T09:51:54 AEDT" duration-ms="6334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="OrderHistoryTest(java.util.HashMap)[pri:0, instance:bigProject.tests.SubmitOrderTest@6bf08014]" started-at="2024-03-25T09:51:54 AEDT" name="OrderHistoryTest" data-provider="getData1" finished-at="2024-03-25T09:51:56 AEDT" depends-on-methods="bigProject.tests.SubmitOrderTest.SubmitOrder" duration-ms="1587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, email=anshika@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:bigProject.tests.SubmitOrderTest@6bf08014]" started-at="2024-03-25T09:51:56 AEDT" name="tearDown" finished-at="2024-03-25T09:51:56 AEDT" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:bigProject.tests.SubmitOrderTest@6bf08014]" started-at="2024-03-25T09:51:56 AEDT" name="LaunchApplication" finished-at="2024-03-25T09:52:03 AEDT" duration-ms="6558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="OrderHistoryTest(java.util.HashMap)[pri:0, instance:bigProject.tests.SubmitOrderTest@6bf08014]" started-at="2024-03-25T09:52:03 AEDT" name="OrderHistoryTest" data-provider="getData1" finished-at="2024-03-25T09:52:04 AEDT" depends-on-methods="bigProject.tests.SubmitOrderTest.SubmitOrder" duration-ms="1713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, email=shetty@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:bigProject.tests.SubmitOrderTest@6bf08014]" started-at="2024-03-25T09:52:04 AEDT" name="tearDown" finished-at="2024-03-25T09:52:05 AEDT" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- bigProject.tests.SubmitOrderTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
