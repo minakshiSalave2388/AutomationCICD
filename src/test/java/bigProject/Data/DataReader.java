@@ -11,6 +11,7 @@ import org.apache.commons.io.FileUtils;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+//this will create hashmap
 public class DataReader {
 	
 	public List<HashMap<String, String>> getJsonDataToMap() throws IOException
