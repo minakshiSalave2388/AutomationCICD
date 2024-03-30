@@ -7,9 +7,9 @@ Feature: Error validation
   Scenario Outline: Title of your scenario outline
     Given I landed on Ecommerce Page
     When Loggin with username <name> and password <password>
-    Then <message>, message is dispalyed
+    Then <message> message is dispalyed
 
     Examples: 
       | name  | password | message  |
-      | rahulshettyacademy@gmail.com |     Iamking@0 | Incorrect email or password |
+      | anshika@gmail.com |     Iamking@0 | Incorrect email or password. |
     

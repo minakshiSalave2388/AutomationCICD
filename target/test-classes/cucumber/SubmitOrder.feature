@@ -15,5 +15,5 @@ Given I landed on Ecommerce Page
 
     Examples: 
       | name  						| password 				| productName| message |
-      | rahulshettyacademy@gmail.com |     IamKing@000 | ZARA COAT 3|THANKYOU FOR THE ORDER.|
+      | anshika@gmail.com |     Iamking@000 | ZARA COAT 3|THANKYOU FOR THE ORDER.|
     

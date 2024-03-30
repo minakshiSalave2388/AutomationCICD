@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Mar 30 23:09:02 AEDT 2024</td>
+<td>Started on:</td><td>Sun Mar 31 00:01:24 AEDT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>26 seconds (26142 ms)</td>
+<tr><td>Total time:</td><td>9 seconds (9947 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -77,57 +77,8 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='cucumber.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumber.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Title of your scenario outline", "Error validation"</td>
-<td><div><pre>java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email or password,]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at stepDefinations.stepDefinationImp.error_message_dispalyed(stepDefinationImp.java:64)
-	at ?.Incorrect email or password, message is dispalyed(file:///C:/Users/minak/cicd/SeleniumFrameworkDesign/src/test/java/cucumber/ErrorValidation.feature:10)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1111100957", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1111100957'><pre>java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email or password,]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at stepDefinations.stepDefinationImp.error_message_dispalyed(stepDefinationImp.java:64)
-	at ?.Incorrect email or password, message is dispalyed(file:///C:/Users/minak/cicd/SeleniumFrameworkDesign/src/test/java/cucumber/ErrorValidation.feature:10)
-</pre></div></td>
-<td>8</td>
-<td>cucumber.TestNGTestRunner@76f7d241</td></tr>
-<tr>
-<td title='cucumber.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumber.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Positive Test of submitting the order", "Purchase the order from Ecommerce Website"</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: .col-lg-4 (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\minak\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63358}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63358/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 23c7511c36056bf8e48e4f68be73bb5f
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at bigProject.ReusableComponents.AbstractComponent.waitForElementToAppear(AbstractComponent.java:34)
-	at bigProject.pageObjects.ProductCatalouge.getProducts(ProductCatalouge.java:41)
-	at stepDefinations.stepDefinationImp.add_product(stepDefinationImp.java:38)
-	at ?.I add product ZARA COAT 3 from cart(file:///C:/Users/minak/cicd/SeleniumFrameworkDesign/src/test/java/cucumber/SubmitOrder.feature:12)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1762260670", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1762260670'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: .col-lg-4 (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\minak\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63358}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63358/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 23c7511c36056bf8e48e4f68be73bb5f
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at bigProject.ReusableComponents.AbstractComponent.waitForElementToAppear(AbstractComponent.java:34)
-	at bigProject.pageObjects.ProductCatalouge.getProducts(ProductCatalouge.java:41)
-	at stepDefinations.stepDefinationImp.add_product(stepDefinationImp.java:38)
-	at ?.I add product ZARA COAT 3 from cart(file:///C:/Users/minak/cicd/SeleniumFrameworkDesign/src/test/java/cucumber/SubmitOrder.feature:12)
-</pre></div></td>
-<td>16</td>
+<td></td>
+<td>9</td>
 <td>cucumber.TestNGTestRunner@76f7d241</td></tr>
 </table><p>
 </body>

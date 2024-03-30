@@ -26,7 +26,7 @@ public class ErrorValidation extends baseTest {
 		
 		//LandingPage	landingPage = LaunchApplication();
 		ProductCatalouge prodCat = landingPage.LoginApplication(email, password);
-		Assert.assertEquals("Incorrect email or password", landingPage.getErrorMessage());
+		Assert.assertEquals("Incorrect email or password.", landingPage.getErrorMessage());
 		
 	}
 	
