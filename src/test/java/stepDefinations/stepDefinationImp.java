@@ -55,6 +55,14 @@ public class stepDefinationImp extends baseTest {
 	{
 		String successmessage = confPage.getConfirmationMessage();
 		Assert.assertTrue(successmessage.equalsIgnoreCase(message));
+		driver.close();
+	}
+	
+	@Then("^(.+) message is dispalyed$")
+	public void error_message_dispalyed(String message)
+	{
+		Assert.assertEquals(message, landingPage.getErrorMessage());
+		driver.close();
 	}
 
 }

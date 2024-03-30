@@ -3,13 +3,13 @@ Feature: Error validation
   I want to use this template for my feature file
 
 
-  @tag2
+  @ErrorValidation
   Scenario Outline: Title of your scenario outline
     Given I landed on Ecommerce Page
-    When Logged in with username <name> and password <password>
-    Then I verify the <status> in step
+    When Loggin with username <name> and password <password>
+    Then <message>, message is dispalyed
 
     Examples: 
       | name  | password | message  |
-      | name1 |     5 | Incorrect email or password |
+      | rahulshettyacademy@gmail.com |     Iamking@0 | Incorrect email or password |
     
